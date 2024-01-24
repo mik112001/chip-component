@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: rgb(230, 225, 225);
+    position: relative;
+}
+
+.centered-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chip {
+    background-position: 1cm;
+    background-color: white;
+    list-style-type: none;
+    width: 18%;
+}
+
+hr {
+    border: 1px solid blue;
+    width: 90%;
+}
+
+.search-bar {
+    border: none;
+    bottom: 0;
+    width: calc(90% - 2px);
+    height: 3vh;
+    background-color: rgb(230, 225, 225);
+    outline: none;
+}
+
+.search-bar:focus {
+    border: none;
+}
+
+.search-container {
+    position: relative;
+    margin-top: 2%;
+}
+
+.section {
+    width: 100%;
+}
+
+.list {
+    background-color: grey;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 30%;
+    height: 8%;
+    width: 12%;
+}

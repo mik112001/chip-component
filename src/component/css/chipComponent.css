@@ -1,0 +1,13 @@
+.image {
+    height: 8%;
+    width: 8%;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.chip-component {
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+    border-radius: 10%;
+}
